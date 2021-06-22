@@ -1,0 +1,35 @@
+{
+  "name": "slack-chat",
+  "version": "1.5.4",
+  "homepage": "http://arjun-mat.github.io/slack-chat",
+  "authors": [
+    "Arjun Mathai <arjun@improvi.in>"
+  ],
+  "description": "Slack-Chat is a jQuery plugin that allows customers on your web app to talk to your support team on Slack.",
+  "main": [
+    "js/slack-chat.min.js",
+    "css/slack-chat.css"
+  ],
+  "scripts": {
+    "build": "npx uglify -s js/slack-chat.js -o js/slack-chat.min.js",
+    "lint": "npx eslint js/slack-chat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "support",
+    "chat"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dayjs": "~1.10.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeRalphson/slack-chat.git"
+  },
+  "author": "Arjun Mathai",
+  "bugs": {
+    "url": "https://github.com/MikeRalphson/slack-chat/issues"
+  }
+}
